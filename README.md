@@ -16,7 +16,7 @@ Framework needed for 699807 HW 1 assignment
  
  - Query string refers to the query to search for i.e Chipotle, or Mexican food in midtown manhattan, or broadway theaters. Multi word query strings should be formatted as:
  ```objective-c
-      NSString *query = @"my+first+word"";
+      NSString *multiPartQuery = @"my+first+word"";
  ```
  - A type parameter has been added as well. A type is 'restaurant' or 'hotel', etc...    
  
