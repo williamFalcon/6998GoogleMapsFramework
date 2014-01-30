@@ -16,7 +16,7 @@
  
  Example query params:
  query = Mexican+food+in+New+York
- queryType = Restaurants
+ queryType = restaurant
  */
 +(void)nearestVenuesForLatLong:(CLLocationCoordinate2D)latLong withinRadius:(double)radius forQuery:(NSString *)query queryType:(NSString *)type googleMapsAPIKey:(NSString *)apiKey searchCompletion:(void (^)(NSMutableArray *results))completionHandler;
 
